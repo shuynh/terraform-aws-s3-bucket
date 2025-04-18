@@ -6,6 +6,7 @@ A reusable Terraform module to provision an S3 bucket with:
 - Optional logging
 - Optional versioning
 - Consistent tagging
+- ...and tests!
 
 ## Usage
 
