@@ -59,5 +59,5 @@ region = us-east-1
 ```bash
 make test            # Runs test/test.sh - Bash + Terraform + AWS CLI
 make build-terratest # Builds the Terratest Docker container
-make terratest       # Runs Go-based Terratest suite in Docker using AWS_PROFILE=me
+make terratest       # Runs Terratest in Docker using AWS_PROFILE=testing
 
