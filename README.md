@@ -46,11 +46,11 @@ This module supports both Bash-based and Terratest-based testing.
 
 ### Prerequisite
 
-You must have an AWS CLI profile named `me` configured in `~/.aws/config` or `~/.aws/credentials`.
+You must have an AWS CLI profile named `testing` configured in `~/.aws/config` or `~/.aws/credentials`.
 
 ```ini
 # ~/.aws/config
-[profile me]
+[profile testing]
 region = us-east-1
 ```
 ### 🔧 Run Tests with Make
